@@ -45,3 +45,6 @@ sitemap-*.xml
 
 # Idea
 /.idea
+
+# Storyblock
+build-storybook.log
