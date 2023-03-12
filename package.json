@@ -9,8 +9,10 @@
     "lint": "next lint",
     "prepare": "husky install",
     "postbuild": "next-sitemap --config next-sitemap.config.js",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "storybook": "start-storybook -p 6006 -s public",
+    "build-storybook": "build-storybook -s public",
+    "serve-storybook": "serve storybook-static",
+    "chromatic": "npx chromatic --project-token=96dc69ac7d09"
   },
   "dependencies": {
     "clsx": "^1.2.1",
@@ -39,6 +41,7 @@
     "@types/react-dom": "18.0.9",
     "autoprefixer": "^10.4.13",
     "babel-loader": "^9.1.0",
+    "chromatic": "^6.17.1",
     "eslint": "8.29.0",
     "eslint-config-next": "13.0.6",
     "eslint-config-prettier": "^8.5.0",

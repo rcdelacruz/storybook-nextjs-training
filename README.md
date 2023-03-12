@@ -20,41 +20,6 @@ have been added:
   creation of more human and machine-readable explicit commits.
 - Absolute imports. See [Additional notes](#additional-notes-about-the-template) section.
 
-## Quick Start
-
-Start using this template with [Create Next App](https://nextjs.org/docs/api-reference/create-next-app).
-
-```bash
-yarn create next-app -e https://github.com/ouedyan/nextjs-template
-```
-
-Then check all TODO sections (by doing a global search for e.g.) to complete the project's setup.
-You can delete this README and use the simplified README.prod instead in your project.
-
-## Additional notes about the template
-
-Absolute imports have been configured in **tsconfig.json**
-
-```json lines
-{
-  "compilerOptions": {
-    //...
-    "baseUrl": ".",
-    "paths": {
-      "@/*": [
-        "*"
-      ]
-    }
-  },
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx"
-  ]
-  //...
-}
-```
-
 ## Scripts
 
 Run the development server
