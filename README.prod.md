@@ -2,7 +2,6 @@
 
 For more info about the project initial configuration, features and tools head to https://github.com/ouedyan/nextjs-template.
 
-
 ## Scripts
 
 Run the development server
@@ -35,7 +34,6 @@ Build Storybook as a static web application
 yarn build-storybook
 ```
 
-
 ## Project directory structure
 
 Main folder structure
@@ -64,7 +62,7 @@ Main folder structure
   📂 images
   📄 favicon.ico
   📄 robots.txt
-  
+
 📂 stories
   ...📄 {Component}.stories.tsx
   ...📂 {page}
@@ -73,7 +71,6 @@ Main folder structure
 📂 styles
   📄 globals.scss
 ```
-
 
 ## Project's main tech stack useful resources
 

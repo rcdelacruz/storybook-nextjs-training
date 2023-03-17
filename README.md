@@ -8,14 +8,14 @@ have been added:
 - [Sass](https://sass-lang.com/guide) - Popular Css extension.
 - [Tailwind Css](https://tailwindcss.com/) - Utility-first CSS framework.
   Added to utilities such as :
-    - [tailwind-merge](https://www.npmjs.com/package/tailwind-merge) Utility function to efficiently merge Tailwind CSS classes in JS without style conflicts.
-    - [prettier-plugin-tailwindcss](https://www.npmjs.com/package/prettier-plugin-tailwindcss) A Prettier plugin that automatically sorts Tailwind classes based on recommended class order.
+  - [tailwind-merge](https://www.npmjs.com/package/tailwind-merge) Utility function to efficiently merge Tailwind CSS classes in JS without style conflicts.
+  - [prettier-plugin-tailwindcss](https://www.npmjs.com/package/prettier-plugin-tailwindcss) A Prettier plugin that automatically sorts Tailwind classes based on recommended class order.
 - [Storybook](https://storybook.js.org/) - Frontend workshop for previewing and testing your UI components and pages in isolation.
 - [SVGR](https://react-svgr.com/) - Tool box for using SVGs in React directly as components like in Create React App.
 - Easy [SEO management](https://developers.google.com/search/) with [next-seo](https://www.npmjs.com/package/next-seo)
-    - Automatic [Sitemap](https://developers.google.com/search/docs/advanced/sitemaps/overview) generation with [next-sitemap](https://www.npmjs.com/package/next-sitemap).
+  - Automatic [Sitemap](https://developers.google.com/search/docs/advanced/sitemaps/overview) generation with [next-sitemap](https://www.npmjs.com/package/next-sitemap).
 - [Next js On-Demand ISR](https://nextjs.org/docs/basic-features/data-fetching/incremental-static-regeneration#on-demand-revalidation-beta)
-    - Next js On-demand Incremental Static Regeneration api config to revalidate static stale pages on demand.
+  - Next js On-demand Incremental Static Regeneration api config to revalidate static stale pages on demand.
 - [Conventional Commits Linting](https://www.conventionalcommits.org/en/v1.0.0/#summary) - Set of rules for enforcing
   creation of more human and machine-readable explicit commits.
 - Absolute imports. See [Additional notes](#additional-notes-about-the-template) section.
@@ -52,7 +52,6 @@ Build Storybook as a static web application
 yarn build-storybook
 ```
 
-
 ## Project directory structure
 
 Main folder structure
@@ -81,7 +80,7 @@ Main folder structure
   📂 images
   📄 favicon.ico
   📄 robots.txt
-  
+
 📂 stories
   ...📄 {Component}.stories.tsx
   ...📂 {page}

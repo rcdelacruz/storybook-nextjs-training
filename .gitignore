@@ -48,3 +48,4 @@ sitemap-*.xml
 
 # Storyblock
 build-storybook.log
+/storybook-static
