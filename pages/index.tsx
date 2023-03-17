@@ -1,5 +1,4 @@
 import type { NextPage } from "next";
-import Card from "@/components/Card";
 import VercelSVG from "@/public/icons/vercel.svg";
 import clsx from "clsx";
 
@@ -7,70 +6,8 @@ const Home: NextPage = () => {
   return (
     <div className="px-8">
       <main className="flex min-h-screen flex-1 flex-col items-center justify-center py-16">
-        <h1 className="m-0 text-center text-[4rem] leading-[1.15]">
-          Welcome to{" "}
-          <a
-            className="text-[#0070f3] [text-decoration:none] hover:underline focus:underline active:underline"
-            href="https://nextjs.org"
-          >
-            Next.js!
-          </a>
-        </h1>
-
-        <p className="my-16 text-center text-[1.5rem] leading-[1.5]">
-          Get started by editing{" "}
-          <code
-            className={clsx(
-              "rounded-[5px] bg-[#fafafa] p-3 text-[1.1rem] dark:bg-[#111]",
-              "font-[Menlo,_Monaco,_'Lucida_Console','Liberation_Mono',_'DejaVu_Sans_Mono',_'Bitstream_Vera_Sans_Mono',_'Courier_New',_monospace]"
-            )}
-          >
-            pages/index.tsx
-          </code>
-        </p>
-
-        <div className="flex w-full max-w-[800px] flex-col flex-wrap items-center justify-center sm:w-auto sm:flex-row">
-          <Card
-            href="https://nextjs.org/docs"
-            title="Documentation &rarr;"
-            content="Find in-depth information about Next.js features and API."
-          />
-          <Card
-            href="https://nextjs.org/learn"
-            title="Learn &rarr;"
-            content="Learn about Next.js in an interactive course with quizzes!"
-          />
-          <Card
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            title="Examples &rarr;"
-            content="Discover and deploy boilerplate example Next.js projects."
-          />
-          <Card
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            title="Deploy &rarr;"
-            content="Instantly deploy your Next.js site to a public URL with Vercel."
-          />
-        </div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto neque ipsum saepe consequatur debitis minima qui repudiandae quam maiores nulla ut, obcaecati laboriosam similique quae, sint cum fugit enim dolorum ratione culpa. Voluptatibus sint ea modi ullam molestias delectus itaque quo ex a quod dicta alias, facere recusandae. Vitae nam molestiae impedit officia molestias at veniam eligendi, velit laborum, natus esse minus eius sed ratione mollitia consequatur, nostrum quibusdam odio placeat provident odit autem laboriosam. Enim assumenda deserunt architecto dolore cumque quisquam ducimus facilis sit ipsam quam dicta magnam beatae voluptatem velit aperiam, eius sapiente labore, eaque a delectus, omnis ratione? Nobis excepturi facere modi eius aliquid consectetur. Temporibus, mollitia minus saepe ipsam possimus dicta rem unde sit exercitationem. Error magni ipsa cumque fuga totam eligendi aspernatur animi quis explicabo fugiat iusto beatae est repudiandae repellendus, distinctio illo rerum odio ullam officia soluta blanditiis quisquam sequi? Facere eligendi nostrum aperiam harum error nihil, non consequatur cupiditate eveniet maiores recusandae dicta ad fugiat animi excepturi optio quia labore, fugit reprehenderit odit sed autem. Ut tempora, obcaecati quidem dolorem ea hic ad commodi, nobis, eius ab eaque. Nisi earum ut itaque suscipit! Unde, suscipit! Iure, iste perferendis nisi tempora ad aliquam. Veritatis sit eius libero ea, eum ratione quaerat molestiae autem vero, a commodi delectus expedita quidem voluptate odit voluptatem nobis sed impedit laborum? Optio mollitia quos quas, labore praesentium totam distinctio maiores adipisci nesciunt debitis aperiam illum soluta, molestias dolorum qui repellendus dolor iste necessitatibus ex enim hic ipsum! Quod autem fugit id totam molestias beatae ex sed quasi sunt recusandae dignissimos impedit necessitatibus eveniet ipsum inventore consequatur veritatis corrupti incidunt aspernatur reiciendis tenetur vero, quaerat dolorem! Itaque velit quaerat in doloremque excepturi exercitationem officia veniam recusandae repellat! Excepturi, atque mollitia, repudiandae repellat nostrum esse magni, ipsam dolorem ratione quia ullam. Quo, aut dolore, laboriosam doloremque officiis non laborum dolorem vero nobis, animi facere autem esse. Hic, mollitia aliquid fuga, cumque nemo dignissimos assumenda, tenetur recusandae sapiente aut doloribus minima porro natus ipsam aperiam doloremque eaque nobis rerum. Necessitatibus reiciendis illum amet. Corporis reprehenderit iusto dolorem, consequuntur excepturi beatae dolores aspernatur voluptatum non magnam! Autem, obcaecati! Illo voluptatum laboriosam, voluptatem natus sed accusantium nihil ducimus omnis soluta quia quis qui aliquid, consequatur quam nulla, harum earum dolorem quasi reiciendis? Quam, aspernatur, earum iusto, quasi reprehenderit asperiores aliquid non alias dolor et deserunt vel repudiandae nulla perspiciatis rerum nihil sint eius tempore nam ut ex praesentium quas. Vel aut exercitationem modi temporibus omnis fuga iste explicabo doloremque pariatur rerum saepe dolore ea nobis dolores veniam quos architecto, ratione fugiat fugit, excepturi illum atque quas magnam at. Autem magni eveniet eius laboriosam, labore cumque suscipit nesciunt eum vel? Corrupti, vero libero, earum ipsa aliquam perferendis ipsam nesciunt aperiam expedita distinctio, ab aspernatur officiis quibusdam! Laboriosam porro illum officiis quaerat aperiam reiciendis cumque provident esse necessitatibus blanditiis, eum dicta aspernatur fuga maxime in, facilis saepe voluptatem impedit obcaecati autem quidem velit quam. Necessitatibus dicta impedit magni, magnam soluta pariatur asperiores nesciunt distinctio iure voluptates.
       </main>
-
-      <footer className="flex flex-1 items-center justify-center border-t border-solid border-t-[#eaeaea] py-8 dark:border-[#222]">
-        <a
-          className="flex grow items-center justify-center"
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{" "}
-          <span className="ml-2 h-4">
-            <VercelSVG
-              className="dark:invert"
-              width={72}
-              height={16}
-              alt="Vercel Logo"
-            />
-          </span>
-        </a>
-      </footer>
     </div>
   );
 };
