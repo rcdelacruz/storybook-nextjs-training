@@ -43,7 +43,6 @@ const MainPostOverviewCard: React.FC<IMainPostOverviewCard> = ({
   date,
   readingTime,
 }) => {
-  console.log(readingTime);
   return (
     <div className="max-w-675 rounded-md bg-white shadow-cardShadow">
       {featureImage ? (
@@ -104,8 +103,11 @@ const MainPostOverviewCard: React.FC<IMainPostOverviewCard> = ({
           </div>
 
           <div className="flex items-center justify-between">
-            <div>
-              <Link className="rounded-md p-2 hover:bg-gray-100 " href="/">
+            <div className="flex items-start">
+              <Link
+                className="flex items-start rounded-md p-2 hover:bg-gray-100"
+                href="/"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -119,7 +121,10 @@ const MainPostOverviewCard: React.FC<IMainPostOverviewCard> = ({
                 </svg>
                 7 <span className="hidden sm:inline"> Reactions</span>
               </Link>
-              <Link className="rounded-md p-2 hover:bg-gray-100 " href="/">
+              <Link
+                className="flex items-start rounded-md p-2 hover:bg-gray-100"
+                href="/"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"

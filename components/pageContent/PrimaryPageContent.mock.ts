@@ -1,6 +1,8 @@
 import { type IPrimaryPageContent } from "./PrimaryPageContent";
 
-const base: IPrimaryPageContent = {};
+const base: IPrimaryPageContent = {
+  children: "{{component}}",
+};
 
 export const mockPrimaryPageContentProps = {
   base,
